@@ -71,14 +71,14 @@
 
   /* Contact info styles */
 
-  .contact-info__header,
+.contact-info__header,
 .contact-info__sub-header {
   text-align: center;
 }
 
 .contact-info__header {
   color: var(--primary-text-color);
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
 }
@@ -94,6 +94,12 @@
   justify-content: space-between;
 }
 
+.contact-info__block--inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .contact-info__block--center {
   justify-content: center;
 }
@@ -102,7 +108,7 @@
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .contact-info__item:not(:last-child) {
