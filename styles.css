@@ -182,7 +182,7 @@
   }
   
   .skills__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 15px;
   }
@@ -193,7 +193,7 @@
   }
 
   .projects__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 15px;
   }
@@ -212,11 +212,29 @@
     margin-left: 20px;
     padding: 10px;
     padding-left: 40px;
-    border: 1px solid var(--secondary-text-color);
-    box-shadow: 2px 2px 3px  var(--primary-text-color);
+    /* border: 0.5px solid var(--secondary-text-color); */
+    box-shadow: 0px 1px 0px  var(--primary-text-color);
     max-width: 400px;
   }
 
+  .project__item--header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .project__item--description {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .project__item--link {
+    color: var(--text-decoration-color);
+    text-align: left;
+    font-size: small;
+    margin-top: 10px;
+  }
 
 
   /* Experience and additional info styles */
