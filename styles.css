@@ -27,7 +27,7 @@
   .fh {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .fv {
@@ -133,8 +133,8 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -293,7 +293,7 @@
   }
   
   .additional-info__education {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   
   .additional-info__education-header {
@@ -325,10 +325,13 @@
   
   .additional-info__languages-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
   }
   
   .additional-info__languages-item {
     color: var(--secondary-text-color);
+    text-align: center;
   }
+
+  /* Education */
