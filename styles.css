@@ -142,7 +142,20 @@
 
 /* Intro and skills styles */
 
-.intro {
+  .skill-list-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .skill-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .intro {
     display: flex;
     justify-content: start;
   }
