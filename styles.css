@@ -142,7 +142,20 @@
 
 /* Intro and skills styles */
 
-.intro {
+  .skill-list-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .skill-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .intro {
     display: flex;
     justify-content: start;
   }
@@ -169,7 +182,7 @@
   }
   
   .skills__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 15px;
   }
@@ -178,6 +191,51 @@
     color: var(--secondary-text-color);
     text-align: justify;
   }
+
+  .projects__header {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .projects__block--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .projects__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    /* border: 0.5px solid var(--secondary-text-color); */
+    box-shadow: 0px 1px 0px  var(--primary-text-color);
+    max-width: 400px;
+  }
+
+  .project__item--header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .project__item--description {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .project__item--link {
+    color: var(--text-decoration-color);
+    text-align: left;
+    font-size: small;
+    margin-top: 10px;
+  }
+
 
   /* Experience and additional info styles */
 
