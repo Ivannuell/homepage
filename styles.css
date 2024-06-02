@@ -7,13 +7,14 @@
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
   
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
-    --icon-color: #6a737d;
+    --primary-background-color: #201102;
+    --primary-text-color: #FF9A00;
+    --secondary-text-color: #F2DB7A;
+    --durability-text-color: #ECC934;
+    --icon-color: #FF9A00;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
   }
@@ -37,6 +38,7 @@
   }
   
   .resume {
+    background-color: var(--primary-background-color);
     margin: 50px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
@@ -218,7 +220,7 @@
   }
 
   .project__item--header {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
   }
@@ -245,7 +247,7 @@
   }
   
   .experiences__header {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 20px;
   }
@@ -297,7 +299,7 @@
   }
   
   .additional-info__education-header {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 20px;
   }
@@ -324,7 +326,7 @@
   }
   
   .additional-info__languages-header {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: center;
     margin-bottom: 20px;
   }
